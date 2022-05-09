@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 //Route::resource('sectors', SectorController::class);
 
 //public Routes
-// Route::post('/register', [AuthController::class, 'register']);
+Route::post('/register', [AuthController::class, 'register']);
 // Route::post('/login', [AuthController::class, 'login']);
 Route::get('/sectors', [SectorController::class, 'index']);
 Route::get('/sectors/{id}', [SectorController::class, 'show']);
