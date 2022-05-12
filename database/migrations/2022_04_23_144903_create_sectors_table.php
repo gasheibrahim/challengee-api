@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->string('name')->nullable();
             $table->text('image')->nullable();
-            $table->string('path');
             $table->text('description')->nullable();
             $table->string('requirement')->nullable();
             $table->string('document')->nullable();
